@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       homepage
-      <Image src="/img/logo.png" alt="" layout="fill"/>
+      {/* <Image src="/img/logo.png" alt="" layout="fill"/> */}
 
     </div>
   )
