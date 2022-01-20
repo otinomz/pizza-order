@@ -27,11 +27,13 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className={styles.item}>
-                <Image src="/img/cart.png" alt="" width="30px" height="30px" />
-                <div className={styles.counter}>2</div>  
-            </div>
+                <div className={styles.cart}>
+                    <Image src="/img/cart.png" alt="" width="30px" height="30px" />
+                    <div className={styles.counter}>2</div>  
+                </div>
+                </div>
         </div>   
     )
-};
+}; 
 
 export default Navbar;
