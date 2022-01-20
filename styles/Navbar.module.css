@@ -75,4 +75,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: bold;
+    color: #d1411e;
 }
