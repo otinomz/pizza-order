@@ -15,11 +15,11 @@ const Featured = () => {
             <div className={styles.wrapper}>
                 <div className={styles.ImgContainer}>
                     {images.map((img, id) => (
-                        <Image key={id} src="/img/featured.png " alt="" Layout="fill"/>
+                        <Image key={id} src="/img/featured.png " alt="" layout="fill"/>
                     ))}
                 </div>
             </div>
-            <Image src="/img/arrowr.png" alt="" />  
+            <Image src="/img/arrowr.png" alt="" layout="fill" />  
         </div> 
     )
 };
