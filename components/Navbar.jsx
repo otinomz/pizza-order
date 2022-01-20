@@ -26,8 +26,10 @@ const Navbar = () => {
                     <li className={styles.listItem}>Contact</li>
                 </ul>
             </div>
-            <div className={styles.item}>right</div>
-        </div>
+            <div className={styles.item}>
+                <div>2</div>
+            </div>
+        </div>   
     )
 };
 
