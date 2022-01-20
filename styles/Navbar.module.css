@@ -78,3 +78,15 @@
     font-weight: bold;
     color: #d1411e;
 }
+
+@media (max-width: 997px) {
+    .list{
+        position: absolute;
+        background: blue;
+        flex-direction: column;
+        width: 100%;
+        inset: 0;
+        height: 100vh;
+    }
+   
+}
