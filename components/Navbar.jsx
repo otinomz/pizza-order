@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import styles from "../styles/Navbar.module.css";
 
@@ -5,7 +6,18 @@ const Navbar = () => {
 
     return (
         <div className={styles.container}>
-            Navbar
+            <div className={styles.item}>
+                <div className={styles.callButton}>
+                    <Image src="/img/telephone.png" alt="" />
+                </div>
+                <div className={styles.texts}>
+                    <div className={styles.text}>ORDER NOW</div>
+                    <div className={styles.text}>081 4235</div>
+                </div>
+
+            </div>
+            <div className={styles.item}></div>
+            <div className={styles.item}></div>
         </div>
     )
 };
