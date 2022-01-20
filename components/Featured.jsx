@@ -16,10 +16,10 @@ const Featured = () => {
             </div>
             <Image src="/img/arrowl.png" alt="" layout='fill'/>
             <div className={styles.wrapper}>
-                <div className={styles.ImgContainer}>
-                    {images.map((img, i) => (
-                        <Image key={i} src="/img/featured3.jpg " alt="" layout="fill"/>
-                    ))}
+                <div className={styles.imgContainer}>
+                    {/* {images.map((img, i) => ( */}
+                        <Image  src="/img/featured3.jpg " alt="" layout="fill"/>
+                    {/* ))} */}
                 </div>
             </div>
             <div className={styles.arrowContainer} style={{right: 0}}>
