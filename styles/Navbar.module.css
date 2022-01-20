@@ -85,7 +85,9 @@
         background: blue;
         flex-direction: column;
         width: 100%;
+        display: none;
         inset: 0;
+        /* top: -10px; */
         height: 100vh;
     }
    
