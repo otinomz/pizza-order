@@ -3,10 +3,10 @@ import styles from "../styles/Featured.module.css";
 import React from 'react';
 
 const Featured = () => {
-    const imagesss = [
-        "/img/featured.png",
-        "/img/featured2.png",
-        "/img/featured3.png"
+    const images = [
+        "/img/featured.jpg",
+        "/img/featured2.jpg",
+        "/img/featured3.jpg"
     ]
     
     return (
@@ -17,8 +17,8 @@ const Featured = () => {
             <Image src="/img/arrowl.png" alt="" layout='fill'/>
             <div className={styles.wrapper}>
                 <div className={styles.ImgContainer}>
-                    {imagesss.map(( img, i) => (
-                        (<img src="/imgfeatured.png" alt="" />)
+                    {images.map((img, i) => (
+                        <Image key={i} src="/img/featured3.jpg " alt="" layout="fill"/>
                     ))}
                 </div>
             </div>
