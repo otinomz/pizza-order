@@ -11,7 +11,7 @@ const Featured = () => {
     
     return (
         <div className={styles.container}>
-            <div className={styles.arrowContainer}>
+            <div className={styles.arrowContainer} style={{left: 0}}>
                 <Image src="/img/arrowl.png" alt="" layout='fill'/>
             </div>
             <Image src="/img/arrowl.png" alt="" layout='fill'/>
@@ -22,7 +22,7 @@ const Featured = () => {
                     ))}
                 </div>
             </div>
-            <div className={styles.arrowContainer}>
+            <div className={styles.arrowContainer} style={{right: 0}}>
                 <Image src="/img/arrowr.png" alt="" layout='fill'/>
             </div>
         </div> 
