@@ -8,3 +8,11 @@
     position: sticky;
     top: 0;
 }
+
+.item {
+    flex: 1;
+}
+
+.item:nth-child(2){
+    flex: 3;
+}
