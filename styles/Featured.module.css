@@ -16,9 +16,6 @@
     cursor:pointer;
 }
  
-/* .left{
-    z-index: 20000;
-} */
 .wrapper{
     overflow-x: hidden;
     width: 300vw;
