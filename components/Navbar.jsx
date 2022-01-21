@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import styles from "../styles/Navbar.module.css";
 
+
 const Navbar = () => {
 
     return (
@@ -16,6 +17,7 @@ const Navbar = () => {
                 </div>
 
             </div>
+
             <div className={styles.item}>
                 <ul className={styles.list}>
                     <li className={styles.listItem}>Homepage</li>
