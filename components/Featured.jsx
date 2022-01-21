@@ -3,6 +3,8 @@ import styles from "../styles/Featured.module.css";
 import React from 'react';
 
 const Featured = () => {
+    const [number, setNumber] = useState(0)
+
     const texts = [
         {
             id: 1,
