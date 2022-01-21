@@ -15,10 +15,10 @@
     margin: auto;
     cursor:pointer;
 }
-
-.left{
+ 
+/* .left{
     z-index: 20000;
-}
+} */
 
 .imgContainer{
     width: 300%;
