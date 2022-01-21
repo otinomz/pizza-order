@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from "../styles/Featured.module.css";
-import React from 'react';
+import React, {useState} from 'react';
 
 const Featured = () => {
     const [number, setNumber] = useState(0)
