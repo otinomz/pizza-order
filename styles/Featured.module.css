@@ -18,7 +18,7 @@
 
 .imgContainer{
     position: relative;
-    width: 100vw;
+    width: 100%;
     background: url('../public/img/featured2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,8 +31,8 @@
     color: rgb(3, 10, 17);
     text-shadow: -2px -2px 4px white;
     text-align: center;
-    width: 100%;
-    background: red;
+    /* width: 100vw; */
+    /* background: red; */
     display: flex;
     align-items: center;
     justify-content: center;
