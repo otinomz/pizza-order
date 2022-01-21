@@ -19,13 +19,21 @@
 /* .left{
     z-index: 20000;
 } */
-
-.imgContainer{
-    width: 300%;
+.wrapper{
+    overflow-x: hidden;
+    width: 300vw;
     background: url('../public/img/featured2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.imgContainer{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
+    align-items: center;
+    justify-content: center;
     overflow-x: hidden;
     height: calc(100vh - 100px);
 }
@@ -43,6 +51,3 @@
     font-weight: bold;
 }
 
-.wrapper{
-  overflow-x: hidden;
-}
