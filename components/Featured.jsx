@@ -4,9 +4,18 @@ import React from 'react';
 
 const Featured = () => {
     const texts = [
-        "Buy One, Get One Free",
-        "50% off for referrals",
-        "Enjoy tasty meals"
+        {
+            id: 1,
+            text: "Buy One, Get One Free",
+        },
+        {
+            id: 2,
+            text: "50% off for referrals",
+        },
+        {
+            id: 3,
+            text: "Enjoy tasty meals"
+        }
     ]
     
     return (
@@ -19,9 +28,9 @@ const Featured = () => {
             
             <div className={styles.wrapper}>
                 <div className={styles.imgContainer}>
-                    {texts.map((text, i) => (
+                    {texts.map(({id, text}) => (
                         // <Image className={styles.food} key="i" src="/img/featured2.jpg " alt="" layout="fill"/>
-                        <h1 key={i}>{text} </h1>
+                        <h1 className={styles.text} key={id}>{text} </h1>
                     ))} 
                 </div>
 

@@ -19,28 +19,32 @@
     z-index: 20000;
 }
 
+.imgContainer{
+    width: 100%;
+    background: red;
+    height: 30%;
+    display: flex;
+    /* display: none; */
+}
+
+/* .imgContainer > .food{
+    width: 100%;
+    height: 100%;
+} */
+
+
+
 .text{
-    position: absolute;
+    /* position: absolute; */
+
     z-index: 200;
     color: white;
     text-align: center;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     height: 100%;
     font-size: 7vw;
-}
-
-.imgContainer{
-    width: 50%;
-    background: red;
-    height: 30%;
-    /* display: none; */
-}
-
-.imgContainer > .food{
-    width: 100%;
-    height: 100%;
 }
