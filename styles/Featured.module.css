@@ -1,8 +1,9 @@
 .containers{
-    height: 70vh;
+    height: calc(100vh - 100px) ;
     background-color: #d1411e;
     z-index: -1;
     position: relative;
+
 }
 
 .arrowContainer{
@@ -26,7 +27,7 @@
     background-size: cover;
     display: flex;
     overflow-x: hidden;
-    height: 70vh;
+    height: calc(100vh - 100px);
 }
 
 .text{
