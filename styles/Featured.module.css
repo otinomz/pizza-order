@@ -17,12 +17,12 @@
 
 .imgContainer{
     position: relative;
-    width: 100%;
-    /* width: 300vw; */
-    background: url('../public/img/featured2.jpg');
+    /* width: 100%; */
+    width: 100vw;
+    /* background: url('../public/img/featured2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
+    display: flex; */
     height: calc(100vh - 100px);
 }
 
@@ -41,4 +41,5 @@
 
 .wrapper{
     overflow: hidden;
+    
 }
