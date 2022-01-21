@@ -3,10 +3,10 @@ import styles from "../styles/Featured.module.css";
 import React from 'react';
 
 const Featured = () => {
-    const images = [
-        "/img/featured.jpg",
-        "/img/featured2.jpg",
-        "/img/featured3.jpg"
+    const texts = [
+        "Buy One, Get One Free",
+        "50% off for referrals",
+        "Enjoy tasty meals"
     ]
     
     return (
@@ -14,11 +14,15 @@ const Featured = () => {
             <div className={styles.arrowContainer} style={{left: 0}}>
                 <Image className={styles.left} src="/img/arrowl.png" alt="" layout='fill'/>
             </div>
+            
+            {/* <h1 className={styles.text}>Buy One, Get one Free</h1> */}
+            
             <div className={styles.wrapper}>
                 <div className={styles.imgContainer}>
-                    {images.map((img, i) => (
-                        <Image key="i" src="/img/featured3.jpg " alt="" layout="fill"/>
-                     ))} 
+                    {texts.map((text, i) => (
+                        // <Image className={styles.food} key="i" src="/img/featured2.jpg " alt="" layout="fill"/>
+                        <h1 key={i}>{text} </h1>
+                    ))} 
                 </div>
 
                 {/* <div className={styles.imgContainer}>
@@ -27,6 +31,7 @@ const Featured = () => {
                     <div className={styles.box}></div>
                 </div> */}
             </div>
+
             <div className={styles.arrowContainer} style={{right: 0}}>
                 <Image src="/img/arrowr.png" alt="" layout='fill'/>
             </div>
