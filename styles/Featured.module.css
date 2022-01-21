@@ -17,7 +17,7 @@
 }
 
 .imgContainer{
-    width: 300vw;
+    width: 100vw;
     background: url('../public/img/featured2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,5 +40,6 @@
 }
 
 .wrapper{
-    /* overflow: hidden; */
+    overflow: hidden;
+    width: 300vw;
 }
