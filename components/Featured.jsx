@@ -6,15 +6,15 @@ const Featured = () => {
     const texts = [
         {
             id: 1,
-            text: "Buy One, Get One Free",
+            text: "Enjoy tasty meals"
         },
         {
             id: 2,
-            text: "50% off for referrals",
+            text: "Best Homemade Pizza is Here",
         },
         {
             id: 3,
-            text: "Enjoy tasty meals"
+            text: "Buy 2, Get 3",
         }
         
     ]
@@ -30,9 +30,7 @@ const Featured = () => {
                     {texts.map(({id, text}) => (
                         // <Image className={styles.food} key="i" src="/img/featured2.jpg " alt="" layout="fill"/>
                         <h1 className={styles.text} key={id}>{text} </h1>
-                    ))} 
-
-                    
+                    ))}                   
                 </div>
 
                 {/* <div className={styles.imgContainer}>

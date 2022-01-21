@@ -42,3 +42,8 @@
     font-size: 10vw;
     font-weight: bold;
 }
+
+
+.wrapper{
+  overflow-x: hidden;
+}
