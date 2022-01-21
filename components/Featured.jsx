@@ -23,7 +23,7 @@ const Featured = () => {
     
     return (
         <div className={styles.containers}>
-            <div className={styles.arrowContainer} style={{left: 0}}>
+            <div className={styles.arrowContainer} style={{left: 0}} onClick={()=> handleArrow("l")}>
                 <Image className={styles.left} src="/img/arrowl.png" alt="" layout='fill'/>
             </div>
             
@@ -42,7 +42,9 @@ const Featured = () => {
                 </div> */}
             </div>
 
-            <div className={styles.arrowContainer} style={{right: 0}}>
+            <div className={styles.arrowContainer}
+                style={{ right: 0 }}
+                onClick={() => handleArrow("l")}>
                 <Image src="/img/arrowr.png" alt="" layout='fill'/>
             </div>
         </div> 
