@@ -1,7 +1,6 @@
 .containers{
     height: calc(100vh - 100px) ;
     background-color: #d1411e;
-    z-index: -1;
     position: relative;
 
 }
@@ -14,11 +13,7 @@
     bottom: 0;
     margin: auto;
     cursor:pointer;
-    z-index: 50000000000;
-}
-
-.left{
-    z-index: 20000;
+    z-index: 500000;
 }
 
 .imgContainer{
