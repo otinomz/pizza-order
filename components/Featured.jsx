@@ -12,15 +12,20 @@ const Featured = () => {
     return (
         <div className={styles.containers}>
             <div className={styles.arrowContainer} style={{left: 0}}>
-                <Image src="/img/arrowl.png" alt="" layout='fill'/>
+                <Image className={styles.left} src="/img/arrowl.png" alt="" layout='fill'/>
             </div>
-            <Image src="/img/arrowl.png" alt="" layout='fill'/>
             <div className={styles.wrapper}>
                 <div className={styles.imgContainer}>
-                    {/* {images.map((img, i) => ( */}
-                        <Image  src="/img/featured3.jpg " alt="" layout="fill"/>
-                    {/* ))} */}
+                    {images.map((img, i) => (
+                        <Image key="i" src="/img/featured3.jpg " alt="" layout="fill"/>
+                     ))} 
                 </div>
+
+                {/* <div className={styles.imgContainer}>
+                    <div className={styles.box}></div>
+                    <div className={styles.box}></div>
+                    <div className={styles.box}></div>
+                </div> */}
             </div>
             <div className={styles.arrowContainer} style={{right: 0}}>
                 <Image src="/img/arrowr.png" alt="" layout='fill'/>

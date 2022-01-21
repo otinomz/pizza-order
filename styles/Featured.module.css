@@ -1,6 +1,8 @@
 .containers{
-    height: calc(100vh -100px);
+    height: 100vh;
     background-color: #d1411e;
+    z-index: -1;
+    position: relative;
 }
 
 .arrowContainer{
@@ -11,4 +13,16 @@
     bottom: 0;
     margin: auto;
     cursor:pointer;
+}
+
+.left{
+    z-index: 20000;
+}
+
+.imgContainer{
+
+}
+
+.box{
+    /* height */
 }
