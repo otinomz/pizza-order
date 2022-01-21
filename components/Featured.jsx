@@ -37,7 +37,9 @@ const Featured = () => {
                 <Image className={styles.left} src="/img/arrowl.png" alt="" layout='fill'/>
             </div>
             
-            <div className={styles.wrapper}>
+            <div className={styles.wrapper}
+                style={{transform: `translateX(${-100*number}vw)`}}
+            >
                 <div className={styles.imgContainer}>
                     {texts.map(({id, text}) => (
                         // <Image className={styles.food} key="i" src="/img/featured2.jpg " alt="" layout="fill"/>
