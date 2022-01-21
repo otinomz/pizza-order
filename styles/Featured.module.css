@@ -29,11 +29,6 @@
     overflow-x: hidden;
 }
 
-/* .imgContainer > .food{
-    width: 100%;
-    height: 100%;
-} */
-
 .text{
     z-index: 200;
     color: rgb(3, 10, 17);
