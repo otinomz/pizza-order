@@ -2,24 +2,24 @@ import Image from 'next/image';
 import styles from "../styles/Featured.module.css";
 import React, {useState} from 'react';
 
+const texts = [
+    {
+        id: 1,
+        text: "Enjoy tasty meals"
+    },
+    {
+        id: 2,
+        text: "Best Homemade Pizza is Here",
+    },
+    {
+        id: 3,
+        text: "Buy 2, Get 3",
+    }
+    
+]
+
 const Featured = () => {
     const [number, setNumber] = useState(0)
-
-    const texts = [
-        {
-            id: 1,
-            text: "Enjoy tasty meals"
-        },
-        {
-            id: 2,
-            text: "Best Homemade Pizza is Here",
-        },
-        {
-            id: 3,
-            text: "Buy 2, Get 3",
-        }
-        
-    ]
 
     const handleArrow = (direction) => {
         if (direction === "l") {
