@@ -11,8 +11,11 @@ const ProductList = () => {
                 Assumenda possimus reiciendis fugiat impedit
                 ernatur accusantium fuga officiis necessitatibusis at iusto
             </p>
+            <div className={styles.wrapper}>
+                {/* rendering Pizza card component here */}
+            </div>
         </div>
     )
-};
+}; 
 
 export default ProductList;
