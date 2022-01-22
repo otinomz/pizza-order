@@ -5,9 +5,19 @@ const Cart = () => {
     return (
         <div className={styles.container}>
             <div className={styles.left}>
-                <div className={styles.imgContainer}>
+                {/* <div className={styles.imgContainer}>
                     <Image src={pizza.img} objectFit="contain" layout="fill" alt=""/>
-                </div>
+                </div> */}
+                <table className={styles.table}>
+                    <tr className={styles.tr}>
+                        <th>Product</th>
+                        <th>Name</th>
+                        <th>Extras</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </table>
             </div>
             <div className={styles.right}>
             </div>
