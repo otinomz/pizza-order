@@ -52,7 +52,7 @@ const Product = () => {
                             name="double"
                             className={styles.checkbox}
                         />
-                        <label htmlFor="double">Double Ingredients</label> 
+                        <label className={styles.label} htmlFor="double">Double Ingredients</label > 
                     </div>
                     <div className={styles.option}>
                         <input
@@ -61,7 +61,7 @@ const Product = () => {
                             name="cheese"
                             className={styles.checkbox}
                         />
-                        <label htmlFor="cheese">Extra cheese</label> 
+                        <label className={styles.label} htmlFor="cheese">Extra cheese</label > 
                     </div>
                     <div className={styles.option}>
                         <input
@@ -70,7 +70,7 @@ const Product = () => {
                             name="spicy"
                             className={styles.checkbox}
                         /> 
-                        <label htmlFor="spicy">Spicy sauce</label> 
+                        <label className={styles.label} htmlFor="spicy">Spicy sauce</label> 
                     </div>
                     <div className={styles.option}>
                         <input
@@ -79,7 +79,7 @@ const Product = () => {
                             name="garlic"
                             className={styles.checkbox}
                         />
-                        <label htmlFor="garlic">Garlic sauce</label> 
+                        <label className={styles.label} htmlFor="garlic">Garlic sauce</label> 
                     </div>
 
                 </div>
