@@ -98,13 +98,18 @@
     height: 20px;
 }
 
-.quantity, .button{
+.quantity{
    width: 50px;
    height: 30px ;
 }
 
 .button{
+    height: 30px;
     margin-right: 10px;
     background-color: #d1411e;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
 }
 
