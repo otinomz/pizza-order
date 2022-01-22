@@ -11,7 +11,7 @@ const Product = () => {
         price: [19.9, 23.9, 27.9],
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
     }
-
+ 
     return (
         <div className={styles.container}>
             <div className={styles.left}>
@@ -19,7 +19,10 @@ const Product = () => {
                     <Image src={pizza.img} objectFit="contain" layout="fill" alt=""/>
                 </div>
             </div>
-            <div className={styles.right}></div> 
+            <div className={styles.right}>
+                <h1 className={styles.title}>{pizza.name}</h1>
+                
+            </div> 
         </div>
     )
 };
