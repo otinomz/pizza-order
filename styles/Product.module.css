@@ -29,4 +29,13 @@
     font-weight: 400;
     border-bottom: 1px solid #d1411e;
 }
- 
+
+.sizes{
+    display: flex;
+}
+
+.size{
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
