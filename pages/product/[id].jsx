@@ -81,7 +81,10 @@ const Product = () => {
                         />
                         <label className={styles.label} htmlFor="garlic">Garlic sauce</label> 
                     </div>
+                </div>
 
+                <div className={styles.add}>
+                    
                 </div>
             </div> 
         </div>
