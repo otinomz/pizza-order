@@ -8,8 +8,17 @@
     padding-top: 20px 40px;
 }
 
-.title{
+.title, .price{
    font-size: 18px;
    font-weight: bold;
    color: #d1411e;
+}
+
+.price{
+   color: #666;
+}
+
+.description{
+    text-align: center;
+    color: #777;
 }
