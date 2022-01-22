@@ -24,6 +24,7 @@ const Product = () => {
             </div>
             <div className={styles.right}>
                 <h1 className={styles.title}>{pizza.name}</h1>
+                {/* this will basically render the index number of the size and display the amount in here */}
                 <span className={styles.price}>${pizza.price[size]}</span>
                 <p className={styles.description}>{ pizza.desc}</p>
                 <h3 className={styles.choose}>Choose the size</h3>
