@@ -7,3 +7,9 @@
     justify-content: center;
     padding-top: 20px 40px;
 }
+
+.title{
+   font-size: 18px;
+   font-weight: bold;
+   color: #d1411e;
+}
