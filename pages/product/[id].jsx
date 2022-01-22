@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "../../styles/Product.module.css";
-import Image from "next/image"
+ import Image from "next/image"
 import {useState} from "react"
 
 const Product = () => {
@@ -30,10 +30,17 @@ const Product = () => {
 
                 <div className={styles.sizes}>
                     <div className={styles.size}>
-                        <Image src="/img/size.png" alt="Size" />
+                        <Image src="/img/size.png" layout="fill" alt="Size" />
+                        <span className={styles.number}>Small</span>
                     </div>
-                    <div className={styles.size}></div>
-            
+                    <div className={styles.size}>
+                        <Image src="/img/size.png" layout="fill" alt="Size" />
+                        <span className={styles.number}>Medium</span>
+                    </div>
+                    <div className={styles.size}>
+                        <Image src="/img/size.png" layout="fill" alt="Size" />
+                        <span className={styles.number}>Large</span>
+                    </div>
                 </div>
                 </div> 
         </div>
