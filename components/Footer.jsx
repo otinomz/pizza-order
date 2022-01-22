@@ -11,7 +11,9 @@ const Footer = () => {
                 
             </div>
             <div className={styles.item}>
-
+                <div className={styles.card}></div>
+                <div className={styles.card}></div>
+                <div className={styles.item}></div>
             </div>
         </div>
     )
