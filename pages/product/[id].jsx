@@ -43,7 +43,8 @@ const Product = () => {
                         <span className={styles.number}>Large</span>
                     </div>
                 </div>
-                </div> 
+                <h3 className={styles.choose}>Choose additional ingredients</h3>
+            </div> 
         </div>
     )
 };
