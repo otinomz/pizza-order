@@ -41,22 +41,6 @@ const Featured = () => {
             <div className={styles.wrapper}
                 style={{transform: `translateX(${-100*number}vw)`}}
             >
-                {/* <div className={styles.imgContainer}>
-                    {texts.map(({id, text}) => (
-                        // <Image className={styles.food} key="i" src="/img/featured2.jpg " alt="" layout="fill"/>
-                        <h1 className={styles.text} key={id}>{text} </h1>
-                    ))}                   
-                    
-                </div> */}
-                {/* <div className={styles.imgContainer}>
-                    <h1>Enjoy tasty meals</h1>
-                </div>
-                <div className={styles.imgContainer}>
-                    <h1>Best Homemade Pizza is Here</h1>
-                </div>
-                <div className={styles.imgContainer}>
-                    <h1>Buy 2, Get 3</h1>
-                </div> */}
 
                 {texts.map(({id, text}) => (
                         <div key={id} className={styles.imgContainer}>
