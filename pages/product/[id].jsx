@@ -4,7 +4,7 @@ import Image from "next/image"
 import {useState} from "react"
 
 const Product = () => {
-    
+    const [size, setSize] = useState(second);    
 
     // creating dummy data
     const pizza = {
@@ -24,7 +24,7 @@ const Product = () => {
             </div>
             <div className={styles.right}>
                 <h1 className={styles.title}>{pizza.name}</h1>
-
+                <span>${pizza.price[size] }</span>
             </div> 
         </div>
     )
