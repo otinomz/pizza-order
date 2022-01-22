@@ -6,15 +6,19 @@
     align-items: center;
     justify-content: center;
     padding-top: 20px 40px;
+    cursor: pointer; 
 }
 
-.title, .price{
+.title{
    font-size: 18px;
    font-weight: bold;
-   color: #d1411e;
+   color: #d1411e; 
+   text-align: center;
 }
 
 .price{
+   font-size: 18px;
+   font-weight: bold;
    color: #666;
 }
 
