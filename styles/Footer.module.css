@@ -9,3 +9,13 @@
     position: relative;
     display: flex;
 }
+
+.card{
+    flex: 1;
+    padding: 0 20px;
+}
+
+.title{
+    font-size: 18px;
+    color: #b7983c;
+}
