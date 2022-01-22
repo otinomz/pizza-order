@@ -75,3 +75,8 @@
     padding: 0px 5px;
     border-radius: 10px;
 }
+
+.ingredients{
+    display: flex;
+    margin-bottom: 30px;
+}

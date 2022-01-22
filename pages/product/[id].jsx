@@ -69,7 +69,7 @@ const Product = () => {
                             id="spicy"
                             name="spicy"
                             className={styles.checkbox}
-                        />
+                        /> 
                         <label htmlFor="spicy">Spicy sauce</label> 
                     </div>
                     <div className={styles.option}>
