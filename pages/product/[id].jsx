@@ -12,11 +12,14 @@ const Product = () => {
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
     }
 
-
     return (
         <div className={styles.container}>
-           <div className={styles.left}></div>
-           <div className={styles.right}></div> 
+            <div className={styles.left}>
+                <div className={styles.imgContainer}>
+                    <Image src={pizza.img} layout="fill" alt=""/>
+                </div>
+            </div>
+            <div className={styles.right}></div> 
         </div>
     )
 };
