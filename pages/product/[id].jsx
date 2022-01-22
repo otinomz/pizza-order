@@ -15,7 +15,8 @@ const Product = () => {
 
     return (
         <div className={styles.container}>
-
+           <div className={styles.left}></div>
+           <div className={styles.right}></div> 
         </div>
     )
 };
