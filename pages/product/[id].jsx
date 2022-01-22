@@ -3,8 +3,18 @@ import styles from "../styles/Product.module.css"
 import Image from "next/image"
 
 const Product = () => {
+    // creating dummy data
+    const pizza = {
+        id: 1,
+        img: "/img/pizza.png",
+        name: "CAMPAGNOLA",
+        price: [19.9, 23.9, 27.9],
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    }
+
+
     return (
-        <div>
+        <div className={styles.container}>
 
         </div>
     )
