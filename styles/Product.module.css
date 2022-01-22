@@ -32,14 +32,16 @@
     font-weight: 400;
     border-bottom: 1px solid #d1411e;
 }
+
 .description{
     margin: 20px 0px;
 }
 
 .sizes{
+    width: 40%;
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .size{
