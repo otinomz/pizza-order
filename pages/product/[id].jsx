@@ -24,7 +24,8 @@ const Product = () => {
             </div>
             <div className={styles.right}>
                 <h1 className={styles.title}>{pizza.name}</h1>
-                <span className={styles.title}>${pizza.price[size]}</span>
+                <span className={styles.price}>${pizza.price[size]}</span>
+                <p className={styles.description}>{ pizza.desc}</p>
             </div> 
         </div>
     )
