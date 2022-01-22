@@ -1,8 +1,11 @@
 import React from 'react';
 import styles from "../../styles/Product.module.css";
 import Image from "next/image"
+import {useState} from "react"
 
 const Product = () => {
+    
+
     // creating dummy data
     const pizza = {
         id: 1,
@@ -21,7 +24,7 @@ const Product = () => {
             </div>
             <div className={styles.right}>
                 <h1 className={styles.title}>{pizza.name}</h1>
-                
+
             </div> 
         </div>
     )
