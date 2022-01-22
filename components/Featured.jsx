@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from "../styles/Featured.module.css";
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 const texts = [
     {
@@ -15,7 +15,6 @@ const texts = [
         id: 3,
         text: "Buy 2, Get 3",
     }
-    
 ]
 
 const Featured = () => {
@@ -48,7 +47,6 @@ const Featured = () => {
                         </div>
                     ))
                 }
-
             </div>
 
             <div className={styles.arrowContainer}
