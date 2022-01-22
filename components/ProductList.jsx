@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "../styles/ProductList.module.css"
+import PizzaCard from './PizzaCard';
 
 const ProductList = () => {
 
@@ -13,6 +14,7 @@ const ProductList = () => {
             </p>
             <div className={styles.wrapper}>
                 {/* rendering Pizza card component here */}
+                <PizzaCard/>
             </div>
         </div>
     )
