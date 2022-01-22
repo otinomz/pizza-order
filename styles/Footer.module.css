@@ -11,6 +11,8 @@
 }
 .item:last-child{
     flex: 2;
+    padding: 50px;
+    justify-content: space-between;
 }
 
 .card{
@@ -25,7 +27,6 @@
 
 .text{
     color: lightgray;
-    margin: 10px 0px;
 }
 
 .motto{
