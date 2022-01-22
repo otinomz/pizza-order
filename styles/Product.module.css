@@ -92,3 +92,8 @@
 .label{
     margin-left: 3px;
 }
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
