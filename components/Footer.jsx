@@ -14,7 +14,14 @@ const Footer = () => {
                 <div className={styles.card}>
                     <h2>WE DID IT, WELL BAKED SLICE OF PIZZA</h2>
                 </div>
-                <div className={styles.card}></div>
+                <div className={styles.card}>
+                    <h1 className={styles.title}>FIND OUR RESTAURANTS</h1>
+                    <p className={styles.text}>
+                        37B, RAYFIELD RESORTS
+                        <br /> JOS, 85022
+                        <br/> (243) 81498
+                    </p>
+                </div>
                 <div className={styles.card}></div>
             </div>
         </div>
