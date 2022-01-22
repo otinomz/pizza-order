@@ -97,3 +97,14 @@
     width: 20px;
     height: 20px;
 }
+
+.quantity, .button{
+   width: 50px;
+   height: 30px ;
+}
+
+.button{
+    margin-right: 10px;
+    background-color: #d1411e;
+}
+
