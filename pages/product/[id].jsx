@@ -44,6 +44,16 @@ const Product = () => {
                     </div>
                 </div>
                 <h3 className={styles.choose}>Choose additional ingredients</h3>
+                <div className={styles.ingredients}>
+                    <div className={styles.options}>
+                        <input
+                            type="checkbox"
+                            id="double"
+                            className={styles.checkbox}
+                        />
+                        <label htmlFor="">Double Ingredients</label> 
+                    </div>
+                </div>
             </div> 
         </div>
     )
