@@ -80,3 +80,9 @@
     display: flex;
     margin-bottom: 30px;
 }
+
+.option{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
