@@ -33,7 +33,12 @@ const Order = () => {
                     </tr>
                 </table>
             </div>  
-        
+            <div className={styles.row}>  
+                <div className={styles.row}>
+                    
+                </div>
+            </div>
+
             <div className={styles.right}>
                 <div className={styles.wrapper}>
                     <h2 className={styles.title}>CART TOTAL</h2>
