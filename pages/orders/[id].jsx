@@ -35,7 +35,7 @@ const Order = () => {
             </div>  
             <div className={styles.row}>  
                 <div className={styles.status}>
-                    <Image src="/img/paid.png" />
+                    <Image src="/img/paid.png" width={30} height={30} alt=""/>
                 </div>
             </div>
 
