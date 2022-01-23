@@ -3,6 +3,14 @@
     display: flex;
 }
 
+.left{
+    flex: 2;
+}
+
+.right{
+    flex: 1;
+}
+
 .imgContainer{
   height: 100px;
   width: 100px;
