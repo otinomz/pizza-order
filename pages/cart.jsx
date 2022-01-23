@@ -26,6 +26,9 @@ const Cart = () => {
                                 />
                             </div> 
                         </td>
+                        <td>
+                            <span className={styles.name}>CORALZO</span>
+                        </td>
                     </tr>
                 </table>
             </div>
