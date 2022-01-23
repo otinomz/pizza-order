@@ -5,9 +5,7 @@ const Cart = () => {
     return (
         <div className={styles.container}>
             <div className={styles.left}>
-                {/* <div className={styles.imgContainer}>
-                    <Image src={pizza.img} objectFit="contain" layout="fill" alt=""/>
-                </div> */}
+
                 <table className={styles.table}>
                     <tr className={styles.tr}>
                         <th>Product</th>
@@ -20,7 +18,12 @@ const Cart = () => {
                     <tr>
                         <td>
                             <div className={styles.imgContainer}>
-                                <Image src={pizza.img} objectFit="contain" layout="fill" alt=""/>
+                                <Image
+                                    src="/img/pizza.png"
+                                    objectFit="cover"
+                                    layout="fill"
+                                    alt=""
+                                />
                             </div> 
                         </td>
                     </tr>
