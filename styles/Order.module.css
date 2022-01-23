@@ -45,6 +45,11 @@
 }
 
 
+.undone.checkedIcon .inProgress.checkedIcon {
+    display: none;
+}
+
+
 .right{
     flex: 1;
 }
