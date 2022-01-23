@@ -24,10 +24,12 @@
   flex-direction: column;
   align-items: center;  
 }
+
 .inProgress{
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
+  animation: inProgress 1s ease infinite alternate;
 }
 
 .undone{
