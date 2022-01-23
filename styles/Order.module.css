@@ -32,8 +32,10 @@
 
 .button{
     height: 300px;
+    background-color: white;
     color: #d1411e;
     font-weight: bold;
     cursor: pointer;
     margin-top: 20px;
+    border: none;
 }
