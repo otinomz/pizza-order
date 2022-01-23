@@ -5,8 +5,10 @@ import styles from "../../styles/Order.module.css"
 
 const Order = () => {
 
+    const status = 0
+
     const statusClass = () => {
-        
+
     }
     
     return (
