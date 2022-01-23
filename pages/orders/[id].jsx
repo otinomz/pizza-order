@@ -45,7 +45,7 @@ const Order = () => {
                         <span>Preparing</span>  
                         <div className={styles.scheckedIcon}>
                             <Image src="/img/checked.png" width={20} height={20} alt=""/>
-                        </div>
+                        </div>   
                     </div>  
                     <div className={styles.status}>
                         <Image src="/img/bike.png" width={30} height={30} alt=""/>
