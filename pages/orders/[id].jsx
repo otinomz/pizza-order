@@ -32,17 +32,18 @@ const Order = () => {
                         </td> 
                     </tr>
                 </table>
-            </div>  
-            <div className={styles.row}>  
-                <div className={styles.status}>
-                    <Image src="/img/paid.png" width={30} height={30} alt=""/>
-                    <span>Payment</span>  
-                    <div className={styles.scheckedIcon}>
-                        <Image src="/img/checked.png" width={30} height={30} alt=""/>
-                        <span>Payment</span>
+                <div className={styles.row}>  
+                    <div className={styles.status}>
+                        <Image src="/img/paid.png" width={30} height={30} alt=""/>
+                        <span>Payment</span>  
+                        <div className={styles.scheckedIcon}>
+                            <Image src="/img/checked.png" width={20} height={20} alt=""/>
+                            <span>Payment</span>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div>  
+            
 
             <div className={styles.right}>
                 <div className={styles.wrapper}>
