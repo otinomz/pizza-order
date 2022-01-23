@@ -34,6 +34,9 @@ const Cart = () => {
                                 Double ingredient, spicy sauce
                             </span>
                         </td>
+                        <td>
+                            <span className={styles.price}>$19.90</span>
+                        </td> 
                     </tr>
                 </table>
             </div>
