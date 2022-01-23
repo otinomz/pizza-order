@@ -14,8 +14,9 @@
 }
 
 .row:last-child{
+    width: 80%;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 
 .status{
