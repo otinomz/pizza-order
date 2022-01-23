@@ -29,10 +29,12 @@
   flex-direction: column;
   align-items: center;  
 }
+
 .undone{
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
+  opacity: 0.3;
 }
 
 
