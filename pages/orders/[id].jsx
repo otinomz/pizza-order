@@ -4,7 +4,11 @@ import styles from "../../styles/Order.mod  ule.css"
 
 
 const Order = () => {
+    const statusClass = (i) => {
+        
+    }
     
+
     return (
         <div className={styles.container}>
             <div className={styles.left}>
