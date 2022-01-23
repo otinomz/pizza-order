@@ -41,7 +41,7 @@ const Order = () => {
                         </div>
                     </div>  
                     <div className={styles.status}>
-                        <Image src="/img/paid.png" width={30} height={30} alt=""/>
+                        <Image src="/img/bake.png" width={30} height={30} alt=""/>
                         <span>Preparing</span>  
                         <div className={styles.scheckedIcon}>
                             <Image src="/img/checked.png" width={20} height={20} alt=""/>
