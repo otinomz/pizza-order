@@ -55,4 +55,6 @@
 .button{
     height: 300px;
     color: #d1411e;
+    font-weight: bold;
+    cursor: pointer;
 }
