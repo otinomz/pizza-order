@@ -29,6 +29,11 @@ const Cart = () => {
                         <td>
                             <span className={styles.name}>CORALZO</span>
                         </td>
+                        <td>
+                            <span className={styles.extras}>
+                                Double ingredient, spicy sauce
+                            </span>
+                        </td>
                     </tr>
                 </table>
             </div>
