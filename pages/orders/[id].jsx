@@ -29,13 +29,18 @@ const Order = () => {
                         </td>
                         <td>
                             <span className={styles.total}>$79.80</span>
-                        </td>
+                        </td> 
                     </tr>
                 </table>
             </div>  
             <div className={styles.row}>  
                 <div className={styles.status}>
                     <Image src="/img/paid.png" width={30} height={30} alt=""/>
+                    <span>Payment</span>  
+                    <div className={styles.scheckedIcon}>
+                        <Image src="/img/checked.png" width={30} height={30} alt=""/>
+                        <span>Payment</span>
+                    </div>
                 </div>
             </div>
 
