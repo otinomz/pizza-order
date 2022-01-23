@@ -7,8 +7,10 @@ const Order = () => {
 
     const status = 0
 
-    const statusClass = () => {
-
+    const statusClass = (i) => {
+        if (i - status < 1) return styles.done
+        if (i - status === 1) return styles.inProgress
+        if (i - status > 1) return styles.undone
     }
     
     return (
