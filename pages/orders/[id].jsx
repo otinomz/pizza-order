@@ -1,14 +1,10 @@
 import React from 'react';
 import Image from "next/image"
-import styles from "../../styles/Order.mod  ule.css"
+import styles from "../../styles/Order.module.css"
 
 
 const Order = () => {
-    const statusClass = (i) => {
-        
-    }
     
-
     return (
         <div className={styles.container}>
             <div className={styles.left}>
@@ -37,28 +33,28 @@ const Order = () => {
                     </tr>
                 </table>
                 <div className={styles.row}>  
-                    <div className={statusClass(0)}>
+                    <div className={styles.status}>
                         <Image src="/img/paid.png" width={30} height={30} alt=""/>
                         <span>Payment</span>  
                         <div className={styles.scheckedIcon}>
                             <Image src="/img/checked.png" width={20} height={20} alt=""/>
                         </div>
                     </div>  
-                    <div className={statusClass(1)}>
+                    <div className={styles.status}>
                         <Image src="/img/bake.png" width={30} height={30} alt=""/>
                         <span>Preparing</span>  
                         <div className={styles.scheckedIcon}>
                             <Image src="/img/checked.png" width={20} height={20} alt=""/>
                         </div>   
                     </div>  
-                    <div className={statusClass(2)}>
+                    <div className={styles.status}>
                         <Image src="/img/bike.png" width={30} height={30} alt=""/>
                         <span>On the way</span>  
                         <div className={styles.scheckedIcon}>
                             <Image src="/img/checked.png" width={20} height={20} alt=""/>
                         </div>
                     </div>
-                    <div className={statusClass(3)}>
+                    <div className={styles.status}>
                         <Image src="/img/delivered.png" width={30} height={30} alt=""/>
                         <span>Delivered</span>  
                         <div className={styles.scheckedIcon}>
