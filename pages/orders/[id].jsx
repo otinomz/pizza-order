@@ -25,13 +25,13 @@ const Order = () => {
                             </span>
                         </td>
                         <td>
-                            <span className={styles.price}>$19.90</span>
+                            <span className={styles.address}>Cocin, Rayfield</span>
                         </td>
                         <td>
                             <span className={styles.quantity}>2</span>
                         </td>
                         <td>
-                            <span className={styles.total}>$39.80</span>
+                            <span className={styles.total}>$79.80</span>
                         </td>
                     </tr>
                 </table>
