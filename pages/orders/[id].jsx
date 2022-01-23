@@ -4,6 +4,10 @@ import styles from "../../styles/Order.module.css"
 
 
 const Order = () => {
+
+    const statusClass = () => {
+        
+    }
     
     return (
         <div className={styles.container}>
