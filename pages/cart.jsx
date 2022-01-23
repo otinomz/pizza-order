@@ -17,6 +17,13 @@ const Cart = () => {
                         <th>Quantity</th>
                         <th>Total</th>
                     </tr>
+                    <tr>
+                        <td>
+                            <div className={styles.imgContainer}>
+                                <Image src={pizza.img} objectFit="contain" layout="fill" alt=""/>
+                            </div> 
+                        </td>
+                    </tr>
                 </table>
             </div>
             <div className={styles.right}>
