@@ -20,8 +20,8 @@ const Order = () => {
                             <span className={styles.id}>123456</span>
                         </td>
                         <td>
-                            <span className={styles.extras}>
-                                Double ingredient, spicy sauce
+                            <span className={styles.name}>
+                                Rich Mary
                             </span>
                         </td>
                         <td>
