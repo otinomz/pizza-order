@@ -34,8 +34,8 @@ const Order = () => {
                 </table>
             </div>  
             <div className={styles.row}>  
-                <div className={styles.row}>
-                    
+                <div className={styles.status}>
+                    <Image src="/img/paid.png" />
                 </div>
             </div>
 
