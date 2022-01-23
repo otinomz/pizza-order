@@ -32,6 +32,11 @@
   animation: inProgress 1s ease infinite alternate;
 }
 
+@keyframes inProgress {
+    from { opacity: 0}
+    to { opacity: 1}
+}
+
 .undone{
   display: flex;
   flex-direction: column;
