@@ -1,0 +1,9 @@
+.container{
+    padding: 50px;
+}
+
+.imgContainer{
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
