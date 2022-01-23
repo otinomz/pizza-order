@@ -45,7 +45,7 @@
 }
 
 
-.undone.checkedIcon .inProgress.checkedIcon {
+.undone .checkedIcon, .inProgress .checkedIcon {
     display: none;
 }
 
