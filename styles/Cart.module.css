@@ -32,3 +32,9 @@
     font-weight: 500;
     font-size: 18px;  
 }
+
+.wrapper{
+    width: 90%;
+    max-height: 300px;
+    background-color: #333;
+}
