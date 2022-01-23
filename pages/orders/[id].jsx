@@ -17,7 +17,7 @@ const Order = () => {
                     </tr>
                     <tr>
                         <td>
-                            <span className={styles.name}>CORALZO</span>
+                            <span className={styles.id}>123456</span>
                         </td>
                         <td>
                             <span className={styles.extras}>
