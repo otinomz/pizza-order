@@ -8,7 +8,7 @@ const Order = () => {
     return (
         <div className={styles.container}>
             <div className={styles.left}>
-            <table className={styles.table}>
+                <table className={styles.table}>
                     <tr className={styles.tr}>
                         <th>Order ID</th>
                         <th>Customer</th>
@@ -33,7 +33,7 @@ const Order = () => {
                     </tr>
                 </table>
             </div>  
-
+        
             <div className={styles.right}>
                 <div className={styles.wrapper}>
                     <h2 className={styles.title}>CART TOTAL</h2>
