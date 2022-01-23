@@ -9,7 +9,7 @@ const Order = () => {
         <div className={styles.container}>
             <div className={styles.left}>
             
-            </div>
+            </div>  
             <div className={styles.right}>
                 <div className={styles.wrapper}>
                     <h2 className={styles.title}>CART TOTAL</h2>
@@ -23,7 +23,7 @@ const Order = () => {
                         <b className={styles.totalTextTitle}>Total:</b>$79.68
                     </div>
 
-                    <button className={styles.button}>CHECKOUT NOW !</button>
+                    <button disabled className={styles.button}>PAID!</button>
                 </div>
             </div>
         </div>
