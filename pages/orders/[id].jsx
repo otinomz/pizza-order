@@ -10,24 +10,12 @@ const Order = () => {
             <div className={styles.left}>
             <table className={styles.table}>
                     <tr className={styles.tr}>
-                        <th>Product</th>
-                        <th>Name</th>
-                        <th>Extras</th>
-                        <th>Price</th>
-                        <th>Quantity</th>
+                        <th>Order ID</th>
+                        <th>Customer</th>
+                        <th>Address</th>
                         <th>Total</th>
                     </tr>
                     <tr>
-                        <td>
-                            <div className={styles.imgContainer}>
-                                <Image
-                                    src="/img/pizza.png"
-                                    objectFit="cover"
-                                    layout="fill"
-                                    alt=""
-                                />
-                            </div> 
-                        </td>
                         <td>
                             <span className={styles.name}>CORALZO</span>
                         </td>
