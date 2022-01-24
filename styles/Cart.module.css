@@ -70,11 +70,16 @@
         flex-direction: column;
     }
     
-    .imgContainer{
+    .table{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .imgContainer{
         height: 70vw;
         width: 70vw;
         margin-top: 20px; 
-    }
+    } */
 
     .title{
         margin: 5px;
