@@ -24,4 +24,8 @@
     .pizzaContainer{
         width: 100%;
     }
+
+    .wrapper{
+        flex-direction: column;
+    }
 }
