@@ -34,3 +34,26 @@
 .motto{
     color: rgb(211, 211, 211);
 }
+
+@media screen and (max-width: 488px) {
+    .container{
+        width: 100%;
+    }
+
+    .title{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .description{
+        font-size: 20px;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .price{
+        font-size: 20px;
+    }
+}
+
