@@ -43,7 +43,7 @@ const Featured = () => {
 
                 {texts.map(({id, text}) => (
                         <div key={id} className={styles.imgContainer}>
-                            <h1>{text}</h1>
+                            <h1 className={styles.text}>{text}</h1>
                         </div>
                     ))
                 }

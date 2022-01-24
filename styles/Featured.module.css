@@ -53,4 +53,10 @@
         height: 50vh;
     }
 
+    .text{
+        width: 70%;
+        font-size: 9.5vw;
+    }
+
+
 }
