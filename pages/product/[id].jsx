@@ -12,7 +12,7 @@ const Product = () => {
         img: "/img/pizza.png",
         name: "CAMPAGNOLA",
         price: [19.9, 23.9, 27.9],
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipmet, consectetur adipmet, consectetur adipmet, consectetur adipiscing elit"
     }
  
     return (
