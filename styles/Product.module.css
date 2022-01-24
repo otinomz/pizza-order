@@ -115,15 +115,15 @@
 }
 
 @media screen and (max-width: 488px) {
-    
     .container{
         height: auto;
         text-align: center;
         flex-direction: column;
     }
     
-    /* .imgContainer{
-        display: none;
-    } */
+    .imgContainer{
+        height: 70vw;
+        width: 70vw;
+    }
 
 }
