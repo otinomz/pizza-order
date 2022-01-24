@@ -137,4 +137,9 @@
         cursor: none;
     }
 
+    .ingredients{
+        flex-direction: column;
+    }
+
+
 }
