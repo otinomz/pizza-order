@@ -1,7 +1,8 @@
 .containers{
     height: calc(100vh - 100px) ;
     background-color: #d1411e;
-    overflow: hidden ;
+    overflow: hidden;
+    position: relative;
 }
 
 .arrowContainer{
@@ -37,4 +38,12 @@
     width: 300vw;
     display: flex;
     transition: all 1.5s ease-in-out;
+}
+
+/* for responsive screen */
+
+@media screen and (max-width: 488px) {
+    .containers{
+        height: 50vh;
+    }
 }
