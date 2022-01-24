@@ -80,9 +80,11 @@
     font-weight: bold;
     color: #d1411e;
 }
-
-@media (max-width: 997px) {
-    
+ 
+@media  screen and (max-width: 997px) {
+    .item:nth-child(2){
+        display: none;
+    }
     
     
     
