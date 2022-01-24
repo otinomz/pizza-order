@@ -41,6 +41,10 @@
         text-align: center;
     }
 
+    .motto{
+        margin-bottom: 20px;
+    }
+
     .item:first-child{
         display: none;
     }
