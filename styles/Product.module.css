@@ -118,6 +118,8 @@
     
     .container{
         height: auto;
+        text-align: center;
+        flex-direction: column;
     }
     
     /* .imgContainer{
