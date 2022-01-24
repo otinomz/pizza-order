@@ -77,6 +77,10 @@
         justify-content: center;
     }
 
+    .trTitle{
+        display: none;
+    }
+    
     /* .imgContainer{
         height: 70vw;
         width: 70vw;
