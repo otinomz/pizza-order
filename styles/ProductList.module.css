@@ -26,7 +26,17 @@
     }
 
     .title{
-        font-size: 30px;
+        font-size: 29px;
+        margin-top: 40px;
+        text-align: center;
+        width: 90%;
+    }
+
+    .description{
+        font-size: 18px;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
     }
 
     .wrapper{
