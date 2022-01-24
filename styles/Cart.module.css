@@ -59,3 +59,50 @@
     cursor: pointer;
     margin-top: 20px;
 }
+
+
+
+@media screen and (max-width: 488px) {
+    .container{
+        height: auto;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .imgContainer{
+        height: 70vw;
+        width: 70vw;
+        margin-top: 20px; 
+    }
+
+    .title{
+        margin: 5px;
+    }
+
+    .sizes{
+        width: 100%;
+        padding: 0px 20px;
+        cursor: none;
+    }
+
+    .ingredients{
+        flex-direction: column;
+    }
+
+    .option{
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .checkbox{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    .quantity, .button{
+        height: 50px;
+        padding: 10px 20px;
+    }
+
+}
