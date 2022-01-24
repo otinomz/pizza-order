@@ -40,5 +40,8 @@
         display: none;
     }
 
+    .item{
+        flex-direction: column;
+    }
 }
 
