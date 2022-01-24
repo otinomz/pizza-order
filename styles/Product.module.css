@@ -152,4 +152,9 @@
         margin-right: 10px;
     }
 
+    .quantity, .button{
+        height: 50px;
+        padding: 10px 20px;
+    }
+
 }
