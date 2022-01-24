@@ -26,3 +26,25 @@
     text-align: center;
     color: #777;
 }
+
+@media screen and (max-width: 488px) {
+    .container{
+        width: 100%;
+    }
+
+    .title{
+        font-size: 30px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .description{
+        font-size: 18px;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .price{
+    }
+}
