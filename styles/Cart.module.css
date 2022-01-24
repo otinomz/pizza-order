@@ -80,6 +80,11 @@
     .trTitle{
         display: none;
     }
+
+    .tr{
+        display: flex;
+        flex-direction: column;
+    }
     
     /* .imgContainer{
         height: 70vw;
