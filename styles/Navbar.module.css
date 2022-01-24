@@ -85,17 +85,8 @@
     .item:nth-child(2){
         display: none;
     }
-    
-    
-    
-    /* .list{
-        position: absolute;
-        background: blue;
-        flex-direction: column;
-        width: 100%;
-        display: none;
-        inset: 0;    
-        height: 100vh;
-    } */
-   
+
+    .item:nth-child(1){
+        flex: 3;
+    }
 }
