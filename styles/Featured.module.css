@@ -46,4 +46,11 @@
     .containers{
         height: 50vh;
     }
+
+    .imgContainer{
+        width: 99vw;
+        margin: 0 auto;
+        height: 50vh;
+    }
+
 }
