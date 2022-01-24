@@ -62,7 +62,7 @@
 
 
 
-@media screen and (max-width: 488px) {
+@media screen and (max-width: 922px) {
     .container{
         height: auto;
         padding: 20px;
@@ -84,42 +84,40 @@
     .tr{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .name, .total{
+        font-size: 24px; 
     }
     
-    /* .imgContainer{
-        height: 70vw;
-        width: 70vw;
+    .imgContainer{
+        height: 35vw;
+        width: 35vw;
         margin-top: 20px; 
-    } */
-
-    .title{
-        margin: 5px;
     }
 
-    .sizes{
+    .extras, .price, .quantity{
+        font-size: 22px;
+    }
+
+    .price::before{
+        content: "Price: ";
+        font-weight: 700;
+    }
+    .quantity::before{
+        content: "Quantity: ";
+        font-weight: 700;
+    }
+
+    .total::before{
+        content: "Total: ";
+        font-weight: 700;
+    }
+
+    .wrapper{
         width: 100%;
-        padding: 0px 20px;
-        cursor: none;
     }
-
-    .ingredients{
-        flex-direction: column;
-    }
-
-    .option{
-        margin: 10px;
-        font-size: 18px;
-    }
-
-    .checkbox{
-        width: 25px;
-        height: 25px;
-        margin-right: 10px;
-    }
-
-    .quantity, .button{
-        height: 50px;
-        padding: 10px 20px;
-    }
-
 }
