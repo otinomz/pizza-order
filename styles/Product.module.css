@@ -146,5 +146,10 @@
         font-size: 18px;
     }
 
+    .checkbox{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
 
 }
