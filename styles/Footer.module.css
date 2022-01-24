@@ -52,5 +52,9 @@
     .item{
         flex-direction: column;
     }
+
+    .title{
+        font-size: 25px;
+    }
 }
 
