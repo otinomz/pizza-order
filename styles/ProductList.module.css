@@ -25,6 +25,10 @@
         width: 100%;
     }
 
+    .title{
+        font-size: 30px;
+    }
+
     .wrapper{
         flex-direction: column;
     }
