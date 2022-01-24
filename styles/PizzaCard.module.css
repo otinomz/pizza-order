@@ -10,10 +10,11 @@
 }
 
 .title{
-   font-size: 18px;
-   font-weight: bold;
-   color: #d1411e; 
-   text-align: center;
+    margin: 20px 0px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d1411e; 
+    text-align: center;
 }
 
 .price{
@@ -25,6 +26,7 @@
 .description{
     text-align: center;
     color: #777;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 488px) {
@@ -34,17 +36,17 @@
 
     .title{
         font-size: 30px;
-        margin-top: 20px;
         text-align: center;
     }
 
     .description{
-        font-size: 18px;
+        font-size: 20px;
         width: 100%;
         padding: 20px;
         text-align: center;
     }
 
     .price{
+        font-size: 20px;
     }
 }
