@@ -7,7 +7,7 @@ export default async function handler(req, res) {
     dbConnect();
 
 
-    if (method === "GET") { }
+    // if (method === "GET") { }
     if (method === "POST") {
         try {
             const product = await Product.create(req.body)
