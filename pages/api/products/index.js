@@ -1,7 +1,7 @@
 import dbConnect from "../../../utilities/mongo"
 import Product from "../../../models/Product"
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
     const { method } = req
     
     dbConnect()
@@ -9,6 +9,11 @@ export default function handler(req, res) {
 
     if (method === "GET") { }
     if (method === "POST") {
-
+        try {
+            
+        } catch (err) {
+            res.status(500).json(err);
+        }
     }
 }
+ 
